@@ -1,0 +1,254 @@
+body {
+    background-color: #353535;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #333;
+}
+
+
+.btn-contact {
+    color: #fff;
+    background-color: #D42C00;
+    border-color: #D42C00;
+}
+.btn-contact:hover,
+.btn-contact:focus
+{
+    color: #fff;
+    background-color: #BD2700;
+    border-color: #BD2700;
+}
+.btn-success {
+    background-color: #3FAC1C;
+    border-color: #3FAC1C;
+}
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #379518;
+    border-color: #379518;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    font-weight: 400;
+}
+.light-text {
+    font-weight: 200;
+}
+strong,
+.heavy-text {
+    font-weight: 600;
+}
+
+/**
+ * NAVIGATION
+ */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 20px 0;
+    min-height: 50px;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 0;
+    line-height: 20px;
+}
+.navbar-brand img {
+    height: 50px;
+}
+.navbar-default .navbar-nav > li > a {
+    background-color: none;
+    color: #777;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #111;
+}
+.navbar-default .navbar-nav > li > button {
+    margin-left: 15px;
+}
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus,
+#navbar-collapse-1 > ul > li.dropdown.open > a {
+    background-color: #fff;
+    color: #333;
+}
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-btn {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+.navbar-collapse {
+    border-top: none;
+    box-shadow: none;
+}
+@media (max-width: 767px) {
+    #navbar-collapse-1 {
+        margin: 20px 0;
+    }
+}
+.navbar-default .navbar-toggle {
+    border-color: #2A78BB;
+}
+.navbar-toggle {
+    background-color: #2A78BB;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #266AA6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/**
+ * CONTACT ME
+ */
+
+.modal-dialog {
+    margin: 100px auto;
+}
+.modal-content {
+    border-radius: 3px;
+    box-shadow: 3px 9px rgba(0,0,0,0.2);
+}
+
+
+/**
+ * SPLASH
+ */
+.splash {
+    background-color: #fff;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .splash padding: 80px 0 0 0;
+}
+.splash h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.splash p.sub-heading {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.splash p.call-action {
+    margin: 50px 0 60px 0;
+}
+.splash p.call-action .btn {
+    padding: 15px 35px;
+}
+
+.splash-carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .splash-carousel {
+        width: 60%;
+    }
+}
+.splash .carousel-indicators li {
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 1px 2px rgba(0,0,0,0.3);
+}
+
+/**
+ * HOME SPLASH
+ */
+#home {
+    background-color:; #fff;
+}
+/**
+ * PROJECTS SPLASH
+ */
+#projects {
+    background-color: #5784be;
+}
+#projects .splash .btn-success {
+    background-color: #2DB01C;
+    border-color: #228415;
+    padding: 15px 35px;
+}
+#projects .splash .btn-success:hover {
+    background-color: #289819;
+}
+
+/**
+ * WHITE ROW
+ */
+.white-row {
+    padding: 60px 0;
+    background-color: #fff;
+}
+.white-row h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.white-row > div.container > .row > div {
+    margin-top: 50px;
+}
+
+/**
+ * GREY ROW
+ */
+.grey-row {
+    padding: 60px 0;
+    background-color: #eee;
+}
+.grey-row h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.grey-row > div.container > .row > div {
+    margin-top: 50px;
+}
+
+/**
+ * FOOTER
+ */
+footer {
+    background-color: #353535;
+    padding: 60px 0;
+    text-align: center;
+}
+footer,
+footer a {
+    color: #ccc;
+    font-size: 13px;
+}
+footer li {
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
