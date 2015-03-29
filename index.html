@@ -151,7 +151,7 @@
     </div>
 </div>
 
-<div id="about" class="white-row">
+<!--<div id="about" class="white-row">
     <div class="container">
 
         <div class="row">
@@ -174,7 +174,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <footer>
     <ul class="list-inline">
@@ -227,7 +227,14 @@
     loadCssFile("https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
     loadCssFile("css/style.css");
 
-
+    window.addEventListener('scroll', function(event){
+        if(document.body.scrollTop > 980){
+            $('.fadeInLeft').css('display', 'block');
+            $('.fadeInLeft').attr('class', 'animated fadeInLeft');
+            $('.fadeInRight').css('display', 'block');
+            $('.fadeInRight').attr('class', 'animated fadeInRight');
+        }
+    });
 </script>
 <script async src="js/scripts.min.js"></script>
 <style>
